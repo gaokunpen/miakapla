@@ -1,0 +1,486 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, section, header, nav, main, footer {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0;
+  display: block; }
+
+a, u {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+em, i {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+#new_left {
+  width: 100%;
+  height: 0; }
+  #new_left > ul {
+    width: 74px;
+    height: 100%;
+    background: #d10048;
+    position: fixed;
+    left: 0; }
+    #new_left > ul > li {
+      height: 46px;
+      position: relative;
+      background: url("http://www.wm18.com/themes/newmmm/images/menuLine.png") no-repeat 0 bottom; }
+      #new_left > ul > li:hover {
+        background: hotpink; }
+      #new_left > ul > li > a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 46px;
+        text-align: center;
+        color: #fff;
+        font-size: 11px; }
+    #new_left > ul li:nth-child(1) {
+      height: 56px; }
+    #new_left > ul li:nth-child(7) a {
+      line-height: 16px;
+      margin-top: 5px; }
+    #new_left > ul .more {
+      width: 74px;
+      height: 0; }
+      #new_left > ul .more > .anmore {
+        padding-top: 56px;
+        width: 0px;
+        height: 0%;
+        position: fixed;
+        left: 74px;
+        top: 0;
+        background: #ccc;
+        opacity: 0;
+        z-index: 2000; }
+        #new_left > ul .more > .anmore > a {
+          width: 74px;
+          height: 46px;
+          display: block;
+          font-size: 11px;
+          color: #eee;
+          text-align: center;
+          line-height: 45px;
+          border-bottom: 1px solid #fff; }
+          #new_left > ul .more > .anmore > a:hover {
+            background: hotpink; }
+        #new_left > ul .more > .anmore a:nth-child(1) {
+          border-top: 1px solid #fff; }
+
+/* sass */
+#vivo_head {
+  width: 100%;
+  height: 80px;
+  background: rgba(192, 192, 192, 0.5); }
+  #vivo_head:hover .search p {
+    display: block; }
+  #vivo_head > .search {
+    padding-top: 20px;
+    width: 720px;
+    margin: 0 auto; }
+    #vivo_head > .search:hover p {
+      display: block; }
+    #vivo_head > .search .inp1 {
+      width: 550px;
+      height: 45px;
+      display: block;
+      float: left;
+      padding-left: 20px;
+      outline: none; }
+    #vivo_head > .search .inp2 {
+      width: 100px;
+      height: 47px;
+      background: #000;
+      display: block;
+      float: left;
+      color: #fff;
+      text-align: center;
+      line-height: 47px;
+      margin-top: 1px; }
+      #vivo_head > .search .inp2:hover {
+        background: red; }
+    #vivo_head > .search p {
+      float: left;
+      width: 26px;
+      height: 24px;
+      margin-top: 12px;
+      margin-left: 10px;
+      background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+      background-position: -85px 0px;
+      display: none; }
+      #vivo_head > .search p:hover {
+        background-position: -85px -24px; }
+
+#top_lcon {
+  width: 984px;
+  height: 70px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  overflow: hidden; }
+  #top_lcon > h1 {
+    width: 314px;
+    height: 34px;
+    background: url("http://www.wm18.com/themes/newmmm/images/newlogo.png") no-repeat;
+    margin-top: 20px;
+    float: left; }
+  #top_lcon .sign {
+    width: 380px;
+    height: 40px;
+    float: left;
+    margin-left: 288px;
+    margin-top: 30px; }
+    #top_lcon .sign p {
+      float: left;
+      height: 13px;
+      font-size: 11px;
+      text-align: center;
+      line-height: 13px;
+      border-right: 1px solid #a888a8; }
+      #top_lcon .sign p > a {
+        color: #333; }
+    #top_lcon .sign p:nth-of-type(1) {
+      width: 22px;
+      height: 13px;
+      position: relative; }
+      #top_lcon .sign p:nth-of-type(1) > b {
+        display: block;
+        background: #ccc;
+        width: 22px;
+        height: 22px;
+        background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+        background-position: -12px -12px;
+        position: absolute;
+        top: -4px; }
+    #top_lcon .sign p:nth-of-type(2) {
+      width: 36px; }
+    #top_lcon .sign p:nth-of-type(3) {
+      width: 36px; }
+    #top_lcon .sign p:nth-of-type(4) {
+      width: 60px; }
+    #top_lcon .sign p:nth-of-type(5) {
+      position: relative;
+      border-right: 0; }
+      #top_lcon .sign p:nth-of-type(5) .aa1 {
+        margin-left: 10px;
+        width: 24px;
+        height: 20px;
+        display: block;
+        float: left;
+        background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+        background-position: -220px 0; }
+      #top_lcon .sign p:nth-of-type(5) span {
+        background: #FF0000;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        color: #fff;
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: 22px;
+        text-align: center;
+        line-height: 18px;
+        float: left; }
+      #top_lcon .sign p:nth-of-type(5) strong {
+        display: block;
+        margin-left: 12px;
+        float: left;
+        width: 170px;
+        height: 17px;
+        background: url("http://www.wm18.com/themes/newmmm/images/tel-call.png") no-repeat; }
+
+#banner {
+  width: 984px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background: url("http://www.wm18.com/data/afficheimg/1429142483942480091.jpg") no-repeat; }
+  #banner p {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    background: rgba(25, 25, 25, 0.5);
+    right: 0; }
+    #banner p > span {
+      width: 200px;
+      color: #fff;
+      font-size: 16px;
+      margin: 40px auto 10px;
+      display: block; }
+    #banner p > b {
+      width: 200px;
+      color: #fff;
+      margin: 0 auto;
+      line-height: 24px;
+      font-size: 12px;
+      display: block;
+      letter-spacing: 2px; }
+
+#title {
+  width: 984px;
+  height: 98px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #f0f0f0; }
+  #title p {
+    width: 984px;
+    height: 58px;
+    background: url("http://www.wm18.com/themes/newmmm/images/newRexiao.gif") no-repeat;
+    margin-top: 20px; }
+
+#linking {
+  width: 984px;
+  height: 448px;
+  background: #f0f0f0;
+  margin: 0 auto; }
+  #linking > .link_left {
+    width: 410px;
+    margin-right: 4px;
+    float: left; }
+    #linking > .link_left > a {
+      display: block;
+      wdith: 412px;
+      height: 448px;
+      background: url("http://www.wm18.com/data/afficheimg/1447030423500301893.jpg") no-repeat; }
+  #linking > .link_right {
+    width: 570px;
+    height: 448px;
+    float: left; }
+    #linking > .link_right a:nth-child(1) {
+      width: 283px;
+      height: 222px;
+      margin-right: 4px;
+      display: block;
+      float: left;
+      background: url("http://www.wm18.com/data/afficheimg/1439434282508514621.jpg"); }
+    #linking > .link_right a:nth-child(2) {
+      width: 283px;
+      height: 222px;
+      float: left;
+      display: block;
+      background: url("http://www.wm18.com/data/afficheimg/1439434768342888340.jpg"); }
+    #linking > .link_right a:nth-child(3) {
+      margin-top: 4px;
+      width: 570px;
+      height: 222px;
+      float: left;
+      display: block;
+      background: url("http://www.wm18.com/data/afficheimg/1439434736257951293.jpg") no-repeat, #dadada; }
+
+#listing {
+  width: 984px;
+  min-height: 1111px;
+  margin: 0 auto;
+  margin-top: 20px; }
+  #listing > .title {
+    width: 976px;
+    height: 40px;
+    background: #000;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 8px; }
+  #listing ul {
+    width: 984px;
+    margin: 30px 0 0 10px; }
+    #listing ul li {
+      width: 220px;
+      height: 320px;
+      float: left;
+      position: relative;
+      margin-right: 24px; }
+      #listing ul li > span {
+        display: block;
+        width: 220px;
+        height: 220px;
+        border: 1px solid #aaa; }
+        #listing ul li > span img {
+          width: 160px;
+          height: 220px;
+          margin-left: 30px; }
+      #listing ul li > p {
+        height: 20px;
+        line-height: 20px;
+        color: #888888;
+        font-size: 12px;
+        margin-top: 12px; }
+      #listing ul li > i {
+        position: absolute;
+        top: 284px;
+        color: #f52675; }
+
+footer {
+  width: 100%;
+  height: 524px;
+  background: #ccc; }
+  footer > .under {
+    width: 984px;
+    height: 380px;
+    margin: 0 auto;
+    overflow: hidden; }
+    footer > .under > .circular {
+      width: 324px;
+      height: 132px;
+      margin: 0 auto;
+      margin-top: 70px; }
+      footer > .under > .circular li {
+        float: left;
+        width: 108px; }
+        footer > .under > .circular li span {
+          width: 76px;
+          height: 76px;
+          display: block;
+          border-radius: 50%;
+          margin: 0 auto;
+          background: url(../img/footer-bg.png); }
+        footer > .under > .circular li b {
+          width: 108px; }
+          footer > .under > .circular li b > a {
+            width: 108px;
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+            line-height: 50px;
+            font-size: 15px;
+            text-align: center;
+            color: #aaa; }
+      footer > .under > .circular li:nth-of-type(2) span {
+        background-position: 0 -106px; }
+      footer > .under > .circular li:nth-child(3) span {
+        background-position: 0 -212px; }
+    footer > .under > .links {
+      width: 720px;
+      height: 176px;
+      margin: 0 auto; }
+      footer > .under > .links > li {
+        float: left;
+        width: 120px; }
+        footer > .under > .links > li img {
+          width: 100px;
+          height: 100px;
+          display: block;
+          margin-top: 6px; }
+        footer > .under > .links > li p {
+          font-size: 18px;
+          color: #888; }
+        footer > .under > .links > li a {
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          color: #888;
+          font-size: 13px; }
+          footer > .under > .links > li a:hover {
+            color: #666; }
+  footer .lines {
+    height: 1px;
+    width: 100%;
+    background: #666; }
+  footer .btm {
+    width: 984px;
+    margin: 0 auto; }
+    footer .btm li:nth-child(1) {
+      height: 20px;
+      width: 542px;
+      margin: 0 auto;
+      margin-top: 35px; }
+      footer .btm li:nth-child(1) p {
+        font-size: 12px;
+        height: 20px;
+        color: #888;
+        padding: 0 15px;
+        float: left;
+        line-height: 20px;
+        border-right: 1px solid #888; }
+        footer .btm li:nth-child(1) p:hover {
+          color: #666; }
+      footer .btm li:nth-child(1) p:nth-child(5) {
+        border-right: 0; }
+    footer .btm li:nth-child(2) {
+      height: 20px;
+      width: 544px;
+      margin: 14px  auto 0; }
+      footer .btm li:nth-child(2) span {
+        display: block;
+        width: 26px;
+        height: 28px;
+        background: url(../img/newicon.png);
+        float: left;
+        margin-top: -8px; }
+      footer .btm li:nth-child(2) p {
+        font-size: 12px;
+        height: 20px;
+        color: #888;
+        float: left; }
+    footer .btm li:nth-child(3) {
+      width: 472px;
+      height: 30px;
+      margin: 10px auto 0;
+      position: relative; }
+      footer .btm li:nth-child(3) img {
+        float: left;
+        margin-right: 25px; }
+      footer .btm li:nth-child(3) span {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background: url(../img/beian.png);
+        position: absolute;
+        left: 250px;
+        top: 2px; }
+      footer .btm li:nth-child(3) b {
+        color: #888;
+        font-size: 11px; }
+
+#side {
+  width: 55px;
+  height: 296px;
+  position: fixed;
+  top: 68px;
+  right: 10px; }
+  #side .side_t {
+    width: 55px;
+    height: 90px;
+    background: url("../img/rightSider_01.png");
+    border-bottom: 1px solid #fff; }
+  #side .side_phone {
+    width: 55px;
+    height: 90px;
+    background: url("../img/rightSider_02.png");
+    position: relative;
+    transition: 1s; }
+    #side .side_phone > p {
+      height: 90px;
+      width: 230px;
+      background: url(../img/kefu1.png);
+      position: absolute;
+      left: -300px;
+      display: none; }
+  #side .side_jump {
+    width: 55px;
+    height: 80px;
+    background: url("../img/gonggao.jpg"); }
+  #side .side_scroll {
+    width: 55px;
+    height: 35px;
+    background: url(../img/rightSider_04.png);
+    display: none; }
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,704 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, section, header, nav, main, footer {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0;
+  display: block; }
+
+a, u {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+em, i {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+#new_left {
+  width: 100%;
+  height: 100%; }
+  #new_left > ul {
+    width: 74px;
+    height: 100%;
+    background: #d10048;
+    position: fixed;
+    left: 0; }
+    #new_left > ul > li {
+      height: 46px;
+      position: relative;
+      background: url("http://www.wm18.com/themes/newmmm/images/menuLine.png") no-repeat 0 bottom; }
+      #new_left > ul > li:hover {
+        background: hotpink; }
+      #new_left > ul > li > a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 46px;
+        text-align: center;
+        color: #fff;
+        font-size: 11px; }
+    #new_left > ul li:nth-child(1) {
+      height: 56px; }
+    #new_left > ul li:nth-child(7) a {
+      line-height: 16px;
+      margin-top: 5px; }
+    #new_left > ul .more {
+      width: 74px;
+      height: 0; }
+      #new_left > ul .more > .anmore {
+        padding-top: 56px;
+        width: 0px;
+        height: 0%;
+        position: fixed;
+        left: 74px;
+        top: 0;
+        background: #ccc;
+        opacity: 0;
+        z-index: 2000; }
+        #new_left > ul .more > .anmore > a {
+          width: 74px;
+          height: 46px;
+          display: block;
+          font-size: 11px;
+          color: #eee;
+          text-align: center;
+          line-height: 45px;
+          border-bottom: 1px solid #fff; }
+          #new_left > ul .more > .anmore > a:hover {
+            background: hotpink; }
+        #new_left > ul .more > .anmore a:nth-child(1) {
+          border-top: 1px solid #fff; }
+
+/* sass */
+#vivo_head {
+  width: 100%;
+  height: 80px;
+  background: rgba(192, 192, 192, 0.5); }
+  #vivo_head:hover .search p {
+    display: block; }
+  #vivo_head > .search {
+    padding-top: 20px;
+    width: 720px;
+    margin: 0 auto; }
+    #vivo_head > .search:hover p {
+      display: block; }
+    #vivo_head > .search .inp1 {
+      width: 550px;
+      height: 45px;
+      display: block;
+      float: left;
+      padding-left: 20px;
+      outline: none; }
+    #vivo_head > .search .inp2 {
+      width: 100px;
+      height: 47px;
+      background: #000;
+      display: block;
+      float: left;
+      color: #fff;
+      text-align: center;
+      line-height: 47px;
+      margin-top: 1px; }
+      #vivo_head > .search .inp2:hover {
+        background: red; }
+    #vivo_head > .search p {
+      float: left;
+      width: 26px;
+      height: 24px;
+      margin-top: 12px;
+      margin-left: 10px;
+      background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+      background-position: -85px 0px;
+      display: none; }
+      #vivo_head > .search p:hover {
+        background-position: -85px -24px; }
+
+#top_lcon {
+  width: 984px;
+  height: 70px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  overflow: hidden; }
+  #top_lcon > h1 {
+    width: 314px;
+    height: 34px;
+    background: url("http://www.wm18.com/themes/newmmm/images/newlogo.png") no-repeat;
+    margin-top: 20px;
+    float: left; }
+  #top_lcon .sign {
+    width: 380px;
+    height: 40px;
+    float: left;
+    margin-left: 288px;
+    margin-top: 30px; }
+    #top_lcon .sign p {
+      float: left;
+      height: 13px;
+      font-size: 11px;
+      text-align: center;
+      line-height: 13px;
+      border-right: 1px solid #a888a8; }
+      #top_lcon .sign p > a {
+        color: #333; }
+    #top_lcon .sign p:nth-of-type(1) {
+      width: 22px;
+      height: 13px;
+      position: relative; }
+      #top_lcon .sign p:nth-of-type(1) > b {
+        display: block;
+        background: #ccc;
+        width: 22px;
+        height: 22px;
+        background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+        background-position: -12px -12px;
+        position: absolute;
+        top: -4px; }
+    #top_lcon .sign p:nth-of-type(2) {
+      width: 36px; }
+    #top_lcon .sign p:nth-of-type(3) {
+      width: 36px; }
+    #top_lcon .sign p:nth-of-type(4) {
+      width: 60px; }
+    #top_lcon .sign p:nth-of-type(5) {
+      position: relative;
+      border-right: 0; }
+      #top_lcon .sign p:nth-of-type(5) .aa1 {
+        margin-left: 10px;
+        width: 24px;
+        height: 20px;
+        display: block;
+        float: left;
+        background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+        background-position: -220px 0; }
+      #top_lcon .sign p:nth-of-type(5) span {
+        background: #FF0000;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        color: #fff;
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: 22px;
+        text-align: center;
+        line-height: 18px;
+        float: left; }
+      #top_lcon .sign p:nth-of-type(5) strong {
+        display: block;
+        margin-left: 12px;
+        float: left;
+        width: 170px;
+        height: 17px;
+        background: url("http://www.wm18.com/themes/newmmm/images/tel-call.png") no-repeat; }
+
+#banner {
+  width: 984px;
+  height: 370px;
+  background: #f0f0f0;
+  margin: 0 auto;
+  position: relative; }
+  #banner .imgs img {
+    width: 984px;
+    height: 350px;
+    position: absolute;
+    display: none; }
+  #banner .imgs img:nth-of-type(1) {
+    display: block; }
+  #banner .subscript {
+    width: 564px;
+    position: absolute;
+    bottom: 20px;
+    right: 208px;
+    z-index: 10; }
+    #banner .subscript .add_color {
+      background: #e1472f; }
+    #banner .subscript > li {
+      width: 188px;
+      height: 6px;
+      background: #fff;
+      float: left; }
+  #banner .click_btn > a {
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    top: 145px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px; }
+    #banner .click_btn > a:hover {
+      background: #e1472f; }
+  #banner .click_btn a:nth-child(1) {
+    right: 0; }
+
+#main {
+  width: 984px;
+  margin: 0 auto;
+  background: #ccc; }
+  #main .modular_tow {
+    margin-top: 4px;
+    width: 324px;
+    height: 194px;
+    margin-right: 4px;
+    float: left;
+    background: #fff;
+    position: relative; }
+    #main .modular_tow:hover {
+      background: #eeafce; }
+    #main .modular_tow:hover span {
+      border: 20px solid;
+      border-color: transparent transparent transparent #eeafce; }
+    #main .modular_tow > .show {
+      width: 132px;
+      height: 194px;
+      padding: 0 18px 0 12px;
+      float: left; }
+      #main .modular_tow > .show h2 {
+        width: 132px;
+        font-weight: 900;
+        color: #000;
+        float: left;
+        font-size: 13px;
+        padding-top: 22px; }
+      #main .modular_tow > .show tt {
+        margin-top: 70px;
+        display: block;
+        width: 132px;
+        color: #969696; }
+      #main .modular_tow > .show p {
+        color: red;
+        font-size: 12px; }
+    #main .modular_tow > img {
+      display: block;
+      float: left;
+      width: 162px;
+      height: 194px; }
+    #main .modular_tow > span {
+      display: block;
+      border: 20px solid;
+      border-color: transparent transparent transparent #fff;
+      position: absolute;
+      top: 100px;
+      left: 162px; }
+  #main .modular {
+    width: 324px;
+    height: 194px;
+    margin-right: 4px;
+    float: left;
+    background: #fff;
+    position: relative;
+    margin-top: 4px; }
+    #main .modular:hover {
+      background: #eeafce; }
+    #main .modular:hover span {
+      border: 20px solid;
+      border-color: transparent transparent transparent #eeafce; }
+    #main .modular > .show {
+      width: 132px;
+      height: 194px;
+      padding: 0 18px 0 12px;
+      float: left; }
+      #main .modular > .show h2 {
+        width: 132px;
+        font-weight: 900;
+        color: #000;
+        float: left;
+        font-size: 13px;
+        padding-top: 22px; }
+      #main .modular > .show tt {
+        margin-top: 70px;
+        display: block;
+        width: 132px;
+        color: #969696; }
+      #main .modular > .show p {
+        margin-bottom: 0px;
+        color: red; }
+    #main .modular > img {
+      display: block;
+      float: left;
+      width: 162px;
+      height: 194px; }
+    #main .modular > span {
+      display: block;
+      border: 20px solid;
+      border-color: transparent transparent transparent #fff;
+      position: absolute;
+      top: 100px;
+      left: 162px; }
+    #main .modular .enlarge {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 588px;
+      display: none;
+      background: #fff;
+      z-index: 1000; }
+      #main .modular .enlarge > img {
+        width: 324px;
+        height: 193px; }
+      #main .modular .enlarge > h2 {
+        width: 276px;
+        margin: 0 auto;
+        font-size: 13px;
+        color: #969696;
+        font-weight: 900;
+        margin-top: 14px; }
+      #main .modular .enlarge > tt {
+        display: block;
+        font-size: 13px;
+        color: #969696;
+        margin: 0 auto;
+        width: 276px;
+        padding-top: 14px; }
+      #main .modular .enlarge > b {
+        margin-top: 30px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-left: 220px;
+        border-radius: 50%;
+        background: red;
+        position: relative;
+        overflow: hidden; }
+        #main .modular .enlarge > b > img {
+          position: absolute;
+          left: -218px;
+          top: 5px; }
+      #main .modular .enlarge > a {
+        display: inline-block;
+        height: 30px;
+        position: absolute;
+        top: 312px;
+        left: 250px;
+        text-align: center;
+        line-height: 30px;
+        color: #696;
+        font-size: 13px; }
+      #main .modular .enlarge > .sample {
+        padding-top: 30px; }
+        #main .modular .enlarge > .sample > img {
+          width: 84px;
+          height: 74px;
+          float: left; }
+    #main .modular .pear {
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      position: absolute;
+      left: 280px;
+      top: 3px;
+      background: url("http://www.wm18.com/themes/newmmm/images/vivo-head-ico.png") no-repeat;
+      background-position: -84px 0; }
+  #main .skin {
+    width: 984px;
+    height: 198px;
+    background: #ccc; }
+    #main .skin .img1 {
+      width: 324px;
+      height: 194px;
+      float: left;
+      margin-right: 4px; }
+      #main .skin .img1 > img {
+        width: 100%;
+        height: 100%;
+        margin-top: 4px; }
+  #main .nature {
+    width: 984px;
+    height: 396px; }
+    #main .nature > .nat_left {
+      width: 324px;
+      height: 390px;
+      margin-right: 4px;
+      float: left; }
+    #main .nature > .nat_img {
+      width: 324px;
+      height: 390px;
+      float: left;
+      margin-top: 4px;
+      margin-right: 4px;
+      background: url("http://www.wm18.com/data/afficheimg/1490294065358480530.jpg"); }
+    #main .nature > .nat_right {
+      width: 324px;
+      height: 390px;
+      float: left; }
+  #main .healthy {
+    width: 984px;
+    height: 198px;
+    background: #ccc; }
+    #main .healthy .img1 {
+      width: 324px;
+      height: 194px;
+      float: left;
+      margin-right: 4px; }
+      #main .healthy .img1 > img {
+        width: 100%;
+        height: 100%;
+        margin-top: 4px; }
+  #main .vitamin {
+    width: 984px;
+    height: 396px; }
+    #main .vitamin > .vat_left {
+      width: 324px;
+      height: 390px;
+      margin-right: 4px;
+      float: left; }
+    #main .vitamin > .nat_img {
+      width: 324px;
+      height: 390px;
+      float: left;
+      margin-top: 4px;
+      margin-right: 4px;
+      background: url("http://www.wm18.com/data/afficheimg/1490294291246837565.jpg"); }
+    #main .vitamin > .vat_right {
+      width: 324px;
+      height: 390px;
+      float: left; }
+  #main .home {
+    width: 984px;
+    height: 198px;
+    background: #ccc; }
+    #main .home .img1 {
+      width: 324px;
+      height: 194px;
+      float: left;
+      margin-right: 4px; }
+      #main .home .img1 > img {
+        width: 100%;
+        height: 100%;
+        margin-top: 4px; }
+  #main .skill {
+    width: 984px;
+    height: 396px; }
+    #main .skill > .sat_left {
+      width: 324px;
+      height: 390px;
+      margin-right: 4px;
+      float: left; }
+    #main .skill > .nat_img {
+      width: 324px;
+      height: 390px;
+      float: left;
+      margin-top: 4px;
+      margin-right: 4px;
+      background: url("http://www.wm18.com/data/afficheimg/1490297963897895043.jpg"); }
+    #main .skill > .sat_right {
+      width: 324px;
+      height: 390px;
+      float: left; }
+  #main .honor .modular_three {
+    margin-top: 4px;
+    width: 487px;
+    height: 194px;
+    margin-right: 4px;
+    float: left;
+    background: #fff;
+    position: relative; }
+    #main .honor .modular_three > .show {
+      width: 195px;
+      height: 194px;
+      padding: 0 18px 0 12px;
+      float: left; }
+      #main .honor .modular_three > .show h2 {
+        width: 172px;
+        font-weight: 900;
+        color: #000;
+        float: left;
+        font-size: 13px;
+        padding-top: 22px; }
+      #main .honor .modular_three > .show tt {
+        margin-top: 70px;
+        display: block;
+        width: 172px;
+        color: #969696; }
+      #main .honor .modular_three > .show p {
+        color: red;
+        font-size: 12px; }
+    #main .honor .modular_three > img {
+      display: block;
+      float: left;
+      width: 262px;
+      height: 194px; }
+    #main .honor .modular_three > span {
+      display: block;
+      border: 20px solid;
+      border-color: transparent transparent transparent #fff;
+      position: absolute;
+      top: 100px;
+      left: 225px; }
+
+footer {
+  width: 100%;
+  height: 524px;
+  background: #ccc; }
+  footer > .under {
+    width: 984px;
+    height: 380px;
+    margin: 0 auto;
+    overflow: hidden; }
+    footer > .under > .circular {
+      width: 324px;
+      height: 132px;
+      margin: 0 auto;
+      margin-top: 70px; }
+      footer > .under > .circular li {
+        float: left;
+        width: 108px; }
+        footer > .under > .circular li span {
+          width: 76px;
+          height: 76px;
+          display: block;
+          border-radius: 50%;
+          margin: 0 auto;
+          background: url(../img/footer-bg.png); }
+        footer > .under > .circular li b {
+          width: 108px; }
+          footer > .under > .circular li b > a {
+            width: 108px;
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+            line-height: 50px;
+            font-size: 15px;
+            text-align: center;
+            color: #aaa; }
+      footer > .under > .circular li:nth-of-type(2) span {
+        background-position: 0 -106px; }
+      footer > .under > .circular li:nth-child(3) span {
+        background-position: 0 -212px; }
+    footer > .under > .links {
+      width: 720px;
+      height: 176px;
+      margin: 0 auto; }
+      footer > .under > .links > li {
+        float: left;
+        width: 120px; }
+        footer > .under > .links > li img {
+          width: 100px;
+          height: 100px;
+          display: block;
+          margin-top: 6px; }
+        footer > .under > .links > li p {
+          font-size: 18px;
+          color: #888; }
+        footer > .under > .links > li a {
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          color: #888;
+          font-size: 13px; }
+          footer > .under > .links > li a:hover {
+            color: #666; }
+  footer .lines {
+    height: 1px;
+    width: 100%;
+    background: #666; }
+  footer .btm {
+    width: 984px;
+    margin: 0 auto; }
+    footer .btm li:nth-child(1) {
+      height: 20px;
+      width: 542px;
+      margin: 0 auto;
+      margin-top: 35px; }
+      footer .btm li:nth-child(1) p {
+        font-size: 12px;
+        height: 20px;
+        color: #888;
+        padding: 0 15px;
+        float: left;
+        line-height: 20px;
+        border-right: 1px solid #888; }
+        footer .btm li:nth-child(1) p:hover {
+          color: #666; }
+      footer .btm li:nth-child(1) p:nth-child(5) {
+        border-right: 0; }
+    footer .btm li:nth-child(2) {
+      height: 20px;
+      width: 544px;
+      margin: 14px  auto 0; }
+      footer .btm li:nth-child(2) span {
+        display: block;
+        width: 26px;
+        height: 28px;
+        background: url(../img/newicon.png);
+        float: left;
+        margin-top: -8px; }
+      footer .btm li:nth-child(2) p {
+        font-size: 12px;
+        height: 20px;
+        color: #888;
+        float: left; }
+    footer .btm li:nth-child(3) {
+      width: 472px;
+      height: 30px;
+      margin: 10px auto 0;
+      position: relative; }
+      footer .btm li:nth-child(3) img {
+        float: left;
+        margin-right: 25px; }
+      footer .btm li:nth-child(3) span {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background: url(../img/beian.png);
+        position: absolute;
+        left: 250px;
+        top: 2px; }
+      footer .btm li:nth-child(3) b {
+        color: #888;
+        font-size: 11px; }
+
+#side {
+  width: 55px;
+  height: 296px;
+  position: fixed;
+  top: 68px;
+  right: 10px; }
+  #side .side_t {
+    width: 55px;
+    height: 90px;
+    background: url("../img/rightSider_01.png");
+    border-bottom: 1px solid #fff; }
+  #side .side_phone {
+    width: 55px;
+    height: 90px;
+    background: url("../img/rightSider_02.png");
+    position: relative;
+    transition: 1s; }
+    #side .side_phone > p {
+      height: 90px;
+      width: 230px;
+      background: url(../img/kefu1.png);
+      position: absolute;
+      left: -300px;
+      display: none; }
+  #side .side_jump {
+    width: 55px;
+    height: 80px;
+    background: url("../img/gonggao.jpg"); }
+  #side .side_scroll {
+    width: 55px;
+    height: 35px;
+    background: url(../img/rightSider_04.png);
+    display: none; }
+
+/*# sourceMappingURL=index.css.map */

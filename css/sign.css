@@ -1,0 +1,179 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, section, header, nav, main, footer {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0;
+  display: block; }
+
+a, u {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 100; }
+
+em, i {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+#main {
+  width: 1920px;
+  height: 736px;
+  background: url("http://www.wm18.com/themes/newmmm/images/login-reg.gif") no-repeat;
+  margin: 0 auto; }
+  #main .main_list {
+    width: 984px;
+    height: 736px;
+    margin: 0 auto; }
+    #main .main_list ul {
+      background: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      top: 65px;
+      left: 700px;
+      width: 288px;
+      height: 500px;
+      padding: 0 25px 0 28px; }
+      #main .main_list ul li:nth-child(1) {
+        height: 47px;
+        width: 277px;
+        overflow: hidden; }
+        #main .main_list ul li:nth-child(1) p {
+          width: 95px;
+          font-size: 12px;
+          color: #888888;
+          margin-top: 23px;
+          line-height: 12px;
+          float: left; }
+        #main .main_list ul li:nth-child(1) a {
+          width: 50px;
+          height: 14px;
+          float: left;
+          display: block;
+          font-size: 12px;
+          margin-top: 20px;
+          text-decoration: underline;
+          color: #fea417; }
+        #main .main_list ul li:nth-child(1) .a2 {
+          margin-left: 75px; }
+      #main .main_list ul li:nth-child(2) {
+        width: 280px;
+        height: 70px; }
+        #main .main_list ul li:nth-child(2) input {
+          width: 250px;
+          height: 40px;
+          border: 1px solid #ccc;
+          padding-left: 40px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -52px 10px;
+          outline: none; }
+        #main .main_list ul li:nth-child(2) p {
+          display: none;
+          width: 250px;
+          color: #f00;
+          padding-left: 40px;
+          height: 24px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -60px -222px; }
+      #main .main_list ul li:nth-child(3) {
+        width: 280px;
+        height: 70px; }
+        #main .main_list ul li:nth-child(3) input {
+          width: 250px;
+          height: 40px;
+          border: 1px solid #ccc;
+          padding-left: 40px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -52px -35px;
+          outline: none; }
+        #main .main_list ul li:nth-child(3) p {
+          display: none;
+          width: 250px;
+          color: #f00;
+          padding-left: 40px;
+          height: 24px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -60px -222px; }
+      #main .main_list ul li:nth-child(4) {
+        width: 280px;
+        height: 70px; }
+        #main .main_list ul li:nth-child(4) input {
+          width: 250px;
+          height: 40px;
+          border: 1px solid #ccc;
+          padding-left: 40px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -52px -35px;
+          outline: none; }
+        #main .main_list ul li:nth-child(4) p {
+          display: none;
+          width: 250px;
+          color: #f00;
+          padding-left: 40px;
+          height: 24px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -60px -222px; }
+      #main .main_list ul li:nth-child(5) {
+        width: 280px;
+        height: 35px; }
+        #main .main_list ul li:nth-child(5) input {
+          display: block;
+          float: left; }
+        #main .main_list ul li:nth-child(5) p {
+          float: left;
+          font-size: 12px;
+          color: #ccc;
+          margin: -2px 0 0 5px; }
+        #main .main_list ul li:nth-child(5) a {
+          display: block;
+          float: left;
+          margin-left: 160px;
+          font-size: 12px;
+          color: #ccc; }
+      #main .main_list ul li:nth-child(6) {
+        width: 280px;
+        height: 50px; }
+        #main .main_list ul li:nth-child(6) a {
+          width: 280px;
+          height: 46px;
+          text-align: center;
+          line-height: 46px;
+          color: #fff;
+          font-size: 18px;
+          display: block;
+          background: #d10048;
+          font-weight: 900; }
+      #main .main_list ul li:nth-child(7) {
+        width: 280px;
+        height: 50px;
+        margin-top: 50px; }
+        #main .main_list ul li:nth-child(7) p {
+          color: #555;
+          font-size: 14px;
+          float: left; }
+        #main .main_list ul li:nth-child(7) a {
+          float: left;
+          display: block;
+          width: 40px;
+          height: 40px;
+          background: url("http://www.wm18.com/themes/newmmm/images/index-bg.png") no-repeat;
+          background-position: -45px -113px;
+          margin: -5px 10px 0 20px; }
+        #main .main_list ul li:nth-child(7) .link_a {
+          margin-left: 0;
+          background-position: -45px -170px; }
+
+/*# sourceMappingURL=sign.css.map */
